@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../img/ico.png">
+    <title>Menor e Maior de Três!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../css/index.css" rel="stylesheet">
+</head>
+  <body>
+    <img src="../img/icone.png" class="img-fluid" alt="...">
+    <div class="container">
+        <h1>Menor e Maior de Três!</h1>
+        <div id="menor"></div>
+        <div id="maior"></div>
+        <form onsubmit="event.preventDefault();menoremaiornumero.calcular()">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="number" class="form-control" onchange="menoremaiornumero.number1=this.value" placeholder="digite o primeiro número" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="number"  class="form-control" onchange="menoremaiornumero.number2=this.value"   placeholder="digite o segundo número" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="number"  class="form-control" onchange="menoremaiornumero.number3=this.value"   placeholder="digite o terceiro número" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="submit" class="btn btn-warning"  value="Calcular">
+                    </div>
+                </div>
+        </form>
+       
+        
+    </div>
+    <script src="./js/menordetres.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/fundo.svg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+img
+{
+ padding: 10px;
+}
+
+h1
+{
+    color: white;
+}
+
+.row
+{
+    padding: 5px;
+}
+
