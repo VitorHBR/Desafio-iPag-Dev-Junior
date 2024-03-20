@@ -9,5 +9,5 @@ Portanto não necessita de nenhuma instalação extra pois o navegador le os arq
 
 No diretório raiz existe um index.html que direciona para todas as resoluções, basta clicar.
 
-Entretanto para facilitar a visualização criei uma pequena página dedicada ao exercícios.
+Entretanto para facilitar a visualização criei uma pequena página dedicada aos exercícios.
 Segue o link https://desafio-ipag.web.app/
